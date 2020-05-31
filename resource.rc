@@ -1,0 +1,6 @@
+#ifndef _resourse_rc
+#define _resourse_rc
+
+MAINICON ICON "PM.ico"
+
+#endif

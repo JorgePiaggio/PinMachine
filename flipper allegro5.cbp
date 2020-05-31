@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="flipper allegro5" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="PinMachine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="allegro-5.0.10-mingw-4.7.0/allegro-5.0.10-mingw-4.7.0/include" />
+				</Compiler>
+				<Linker>
+					<Add library="allegro-5.0.10-mingw-4.7.0/allegro-5.0.10-mingw-4.7.0/lib/liballegro-5.0.10-monolith-mt-debug.a" />
+					<Add directory="allegro-5.0.10-mingw-4.7.0/allegro-5.0.10-mingw-4.7.0/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/flipper allegro5" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="allegro-5.0.10-mingw-4.7.0/allegro-5.0.10-mingw-4.7.0/include" />
+		</Compiler>
+		<Linker>
+			<Add library="allegro-5.0.10-mingw-4.7.0/allegro-5.0.10-mingw-4.7.0/lib/liballegro-5.0.10-monolith-mt-debug.a" />
+			<Add directory="allegro-5.0.10-mingw-4.7.0/allegro-5.0.10-mingw-4.7.0/lib" />
+		</Linker>
+		<Unit filename="Arboles.h" />
+		<Unit filename="arboles.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="jugabilidad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="jugabilidad.h" />
+		<Unit filename="listas.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="listas.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mostrar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mostrar.h" />
+		<Unit filename="resource.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="usuario.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="usuario.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
